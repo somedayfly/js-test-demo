@@ -27,5 +27,5 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-karma');
 	
 	grunt.registerTask('default', ['jshint']);
-	grunt.registerTask('unit', ['karma']);
+	grunt.registerTask('test', ['karma']);
 };
